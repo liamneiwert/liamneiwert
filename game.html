@@ -64,12 +64,12 @@
    <div id="game" ></div>
    <!-- Desktop controls: uses mouse events -->
     <div class="game-controls desktop">
-      <button class="myButton" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">FLAP WINGS</button>
+      <button class="myButton" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
       <a href=""><button class="myButton">PLAY AGAIN</button></a>
     </div>
 <!-- Mobile controls: uses touch events -->
     <div class="game-controls mobile">
-      <button class="myButton" ontouchstart="accelerate(-0.2)" ontouchend="accelerate(0.05)">FLAP WINGS</button>
+      <button class="myButton" ontouchstart="accelerate(-0.2)" ontouchend="accelerate(0.05)">ACCELERATE</button> <!--!> Not totally sure why the attribute value on mobile is a different color. It does seem to impact game performance. </-->
      <a href=""><button class="myButton">PLAY AGAIN</button></a>
     </div>
    <script>
